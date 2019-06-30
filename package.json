@@ -1,0 +1,25 @@
+{
+  "name": "location-service",
+  "description": "A very basic \"Location Service\" which fetches location information from the Google Maps API for a given place name. One piece of an Apollo Federation example.",
+  "dependencies": {
+    "@apollo/federation": "0.6.4",
+    "apollo-datasource-rest": "0.5.0",
+    "apollo-server": "2.6.4",
+    "graphql": "14.3.1",
+    "node-geocoder": "3.23.0"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js localhost 4000"
+  },
+  "keywords": [
+    "apollo",
+    "graphql",
+    "federation"
+  ],
+  "devDependencies": {
+    "@types/graphql": "14.0.1",
+    "nodemon": "1.18.4"
+  }
+}
