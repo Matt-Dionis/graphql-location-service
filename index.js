@@ -4,6 +4,8 @@ const LocationAPI = require('./datasources/location')
 const resolvers = require('./resolvers')
 const typeDefs = require('./typeDefs')
 
+require('dotenv').config()
+
 const server = new ApolloServer({
   dataSources: () => {
     return {
